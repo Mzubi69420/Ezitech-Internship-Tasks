@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepta</title>
+    <link rel="stylesheet" href="/project1/project1allcss/gallary.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+</head>
+<body>
+                                                <!-- first  page -->
+
+  <div id="one">
+    <header><div id="four"><a id="seven">Hepta</a>
+        <div id="menuIcon" class="menu-icon" onclick="openMenu()">&#9776;</div>
+        <div id="fullscreenMenu" class="overlay">
+        <a  id="closeIcon" class="close-btn" onclick="closeMenu()">&times;</a>
+        <div class="overlay-content">
+            <a href="/project1/index.html" style="color: #65c0ba;">Home</a>
+            <a href="/project1/project1allhtml/hotels.html ">Hotels</a>
+            <a href="/project1/project1allhtml/aboutus.html">About Us</a>
+            <a href="/project1/project1allhtml/gallary.html">Gallery</a>
+            <a href="/project1/project1allhtml/news.html">News</a>
+            <a href="/project1/project1allhtml/contact.html">Contact</a>
+        </div>
+        </div>
+<script>
+            function openMenu(){
+                document.getElementById("fullscreenMenu").style.width="100%";
+                document.getElementById("menuIcon").style.display="none";
+                document.getElementById("closeIcon").style.display="block"
+            }
+            function closeMenu(){
+                document.getElementById("fullscreenMenu").style.width="0%";
+                document.getElementById("menuIcon").style.display="block";
+                document.getElementById("closeIcon").style.display="none";
+            }
+</script>
+    <br><br><br><br>
+    </header>
+    <main>
+     <h1 id="two">Gallery</h1>
+     <p id="five">A free template by Colorlib. Download and share!</p>
+</div>
+                                                    <!--  page second  -->
+
+<div class="gallery">
+    <div class="row row-4">
+    <img src="/project1/images1/img_1.jpg.webp" alt="Image 1" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_2.jpg.webp" alt="Image 2" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_3.jpg.webp" alt="Image 3" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_5.jpg.webp" alt="Image 4" onclick="openPopup(this.src)">
+  </div>
+  <!-- First Row (4 images) -->
+  <div class="row row-4">
+    <img src="/project1/images1/img_3.jpg.webp" alt="Image 1" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_5.jpg.webp" alt="Image 2" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_1.jpg.webp" alt="Image 3" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_2.jpg.webp" alt="Image 4" onclick="openPopup(this.src)">
+  </div>
+
+  <!-- Second Row (2 images) -->
+  <div class="row row-2">
+    <img src="/project1/images1/img_1.jpg.webp" alt="Image 5" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_2.jpg.webp" alt="Image 6" onclick="openPopup(this.src)">
+  </div>
+
+  <!-- Last Row (4 images) -->
+  <div class="row row-4">
+    <img src="/project1/images1/img_3.jpg.webp" alt="Image 7" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_5.jpg.webp" alt="Image 8" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_1.jpg.webp" alt="Image 9" onclick="openPopup(this.src)">
+    <img src="/project1/images1/img_2.jpg.webp" alt="Image 10" onclick="openPopup(this.src)">
+  </div>
+</div>
+
+                                                    
+                                                    <!--  page three  -->
+
+  <footer>
+  <div id="footer-container">
+    <div class="footer-column">
+      <h3 class="footer-heading">Quick Link</h3>
+      <a class="footer-link" href="#">About Us</a>
+      <a class="footer-link" href="#">Terms & Conditions</a>
+      <a class="footer-link" href="#">Privacy Policy</a>
+      <a class="footer-link" href="#">Help</a>
+      <a class="footer-link" href="#">Rooms</a>
+    </div>
+    <div class="footer-column">
+      <h3 class="footer-heading">Support</h3>
+      <a class="footer-link" href="#">Our Location</a>
+      <a class="footer-link" href="#">The Hosts</a>
+      <a class="footer-link" href="#">About</a>
+      <a class="footer-link" href="#">Contact</a>
+      <a class="footer-link" href="#">Restaurant</a>
+    </div>
+    <div class="footer-column">
+      <h3 class="footer-heading">Contact Info</h3>
+      <span class="footer-subheading">Address:</span>
+      <p class="footer-info">98 West 21th Street, Suite 721<br>New York NY 10016</p>
+      <span class="footer-subheading">Phone:</span>
+      <p class="footer-info">(+1) 435 3533</p>
+      <span class="footer-subheading">Email:</span>
+      <p class="footer-info">info@yourdomain.com</p>
+    </div>
+    <div class="footer-column">
+      <h3 class="footer-heading">Subscribe</h3>
+      <p class="footer-info">Sign up for our newsletter</p>
+      <input type="text" placeholder="Your email..." class="email-input">
+    </div>
+  </div>
+
+    <!-- Footer -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-content">
+      <div class="footer-line"></div>
+      <div class="copyright">
+        © 2025 All rights reserved | This template is made with 
+        <span style="color: rgb(187, 185, 185);">♥</span> by 
+        <a href="https://colorlib.com" style="color: #ccc; text-decoration: underline;">Colorlib</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Popup Overlay -->
+<div id="popup" class="popup" onclick="closePopup()">
+  <span class="popup-close" onclick="closePopup()">&times;</span>
+  <img id="popup-img" src="" alt="Popup Image">
+</div>
+
+<script>
+  function openPopup(src) {
+    const popup = document.getElementById('popup');
+    const img = document.getElementById('popup-img');
+    img.src = src;
+    popup.style.display = 'flex';
+  }
+
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
