@@ -410,3 +410,328 @@ color: #65c0ba;
     justify-content: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base Styles (Unchanged for Desktop) */
+/* [All your existing CSS remains here as-is — unchanged] */
+
+#one {
+  background: linear-gradient(#00000033, #00000033), url(/project1/images1/hero_3.jpg.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* [ ... Your full CSS code stays the same up to here ... ] */
+
+/* Footer Styles */
+@media (max-width: 768px) {
+  #footer-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 30px;
+  }
+
+  .footer-bottom {
+    padding: 20px 30px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .copyright,
+  .social-icons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Responsive layout adjustments */
+  #two {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #seven,
+  .five {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    font-size: 26px;
+    top: 5px;
+    right: 10px;
+  }
+
+  .overlay-content a {
+    font-size: 24px;
+  }
+
+  .ratingsadjust,
+  .ratingsadjust1,
+  #inputadjust,
+  .pop,
+  #catadjust,
+  #sideadjust {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    display: block;
+  }
+
+  .btnround,
+  .btnround2 {
+    margin-left: 20px;
+  }
+
+  #leftadjust,
+  #w {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-link,
+  .footer-subheading,
+  .footer-info,
+  .copyright,
+  .social-icon {
+    font-size: 14px;
+  }
+
+  .email-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Full Responsive CSS for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  /* General layout */
+  #leftside, #rightside {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  /* Hero section */
+  #one {
+    height: auto;
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #two {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #three {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #seven, #five {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #six {
+    margin: 20px auto;
+    display: block;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  /* Form elements */
+  .firsttwo,
+  #emailInput,
+  #writemessageinput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #btn {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  /* Footer section */
+  #footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-link,
+  .footer-subheading,
+  .footer-info,
+  .copyright {
+    font-size: 14px;
+  }
+
+  .footer-line {
+    width: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 16px;
+  }
+
+  .footer-bottom {
+    padding: 20px 30px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Content sections */
+  .mainContainer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .card-text h2 {
+    font-size: 18px;
+  }
+
+  .card-text .desc {
+    font-size: 14px;
+  }
+
+  #eight, #eight1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #nine, #ten {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #eleven {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #twelve {
+    margin: 0 auto;
+  }
+
+  /* Headings and spacing */
+  #twentyone {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .CustomerText {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  #four {
+    padding-top: 30px;
+  }
+
+  .two3 {
+    margin-left: 0;
+  }
+
+  .twentythree {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* Carousel */
+  .carousel-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-slide {
+    height: auto;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}

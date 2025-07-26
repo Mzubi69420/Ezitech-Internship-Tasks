@@ -339,3 +339,269 @@
     justify-content: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsive Fixes: for screens less than 768px */
+@media (max-width: 768px) {
+  /* General layout stacking */
+  #leftside,
+  #rightside {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  /* Hero Section */
+  #one {
+    height: auto;
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #two {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #seven,
+  #five {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Menu */
+  .menu-icon {
+    font-size: 26px;
+    top: 5px;
+    right: 10px;
+  }
+
+  .overlay-content a {
+    font-size: 24px;
+  }
+
+  .close-btn {
+    font-size: 32px;
+    top: 15px;
+    right: 20px;
+  }
+
+  /* Form fields */
+  .firsttwo,
+  #emailInput,
+  #writemessageinput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #btn {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  /* Footer responsiveness */
+  #footer-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-link,
+  .footer-subheading,
+  .footer-info,
+  .copyright {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 16px;
+  }
+
+  .footer-line {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    padding: 20px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Headings */
+  #twentyone {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .CustomerText {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  /* Spacing and padding */
+  #four {
+    padding-top: 30px;
+  }
+
+  .two3 {
+    margin-left: 0;
+  }
+
+  .twentythree {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  /* General layout stacking */
+  #leftside, #rightside {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  /* Hero Section */
+  #one {
+    height: auto;
+    padding: 60px 20px;
+    background-position: center;
+  }
+
+  #two {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #seven, #five {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Form fields */
+  .firsttwo,
+  #emailInput,
+  #writemessageinput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #btn {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  /* Footer responsiveness */
+  #footer-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-link,
+  .footer-subheading,
+  .footer-info,
+  .copyright {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 16px;
+  }
+
+  .footer-line {
+    width: 100%;
+  }
+
+  /* Headings */
+  #twentyone {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .CustomerText {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  /* Spacing and padding */
+  #four {
+    padding-top: 30px;
+  }
+
+  .two3 {
+    margin-left: 0;
+  }
+
+  .twentythree {
+    padding-left: 0;
+    text-align: center;
+  }
+}

@@ -362,25 +362,12 @@
       color: black;
     }
 
- /* for card */
- /* Blog Post Section */
-
 .BlogPost {
       padding: 80px 20px;
       background-color:#e9edec;
       font: 18px "Mukta Mahee",arial,sans-serif;
       text-align: center;
     }
-    
-/* .BlogPost{
-    color: #6C757D;
-    font: 18px "Mukta Mahee",arial,sans-serif;
-    background-color: #65c0ba;
-    height: 1000px;
-    margin: -300px 0px 0px;
-    padding: 300px 0px 54px;
-}      */
-
 
 .card-wrapper {
   display: flex;
@@ -569,3 +556,153 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsive Fixes: for screens less than 768px */
+@media (max-width: 768px) {
+  /* Hero section adjustments */
+  #one {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+  }
+
+  #two {
+    font-size: 42px;
+  }
+
+  #three {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #five, #seven {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  #six {
+    margin: 20px auto;
+    display: block;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  /* Second page adjustments */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sixteen {
+    width: 90%;
+  }
+
+  /* Page three adjustments */
+  .mainContainer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  #eight, #eight1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #nine, #ten {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #eleven {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #twelve {
+    margin: 0 auto;
+  }
+
+  /* Blog cards */
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .card-text h2 {
+    font-size: 18px;
+  }
+
+  .card-text .desc {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  #footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-link,
+  .footer-info,
+  .footer-subheading {
+    font-size: 14px;
+  }
+
+  .footer-line {
+    width: 100%;
+  }
+
+  .social-icon {
+    font-size: 16px;
+  }
+
+  .copyright {
+    font-size: 13px;
+  }
+
+  /* Carousel */
+  .carousel-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-slide {
+    height: auto;
+  }
+
+  .carousel-btn {
+    display: none;
+    content: '';
+  }
+}

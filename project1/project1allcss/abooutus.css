@@ -96,16 +96,23 @@
     height: 550px;
    
 }
-#nine{
-    max-width: 500px;
+#eleven {
+  margin: 0 0 24px;
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-#ten{
-    text-align: left;
-    color:#6c757d;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    line-height: 30px;
+#ten {
+  text-align: justify;
+  color: #6c757d;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 #eleven{
     margin: 0px 0px 24px;
@@ -478,3 +485,180 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================== Responsive Design for Small Devices =================== */
+@media (max-width: 768px) {
+  #one {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #two {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  #five {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  #six {
+    color: #f8f9fa;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 16px 30px;
+    border-color: #f8f9fa;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .mainContainer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  #three {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #eight,
+  #nine {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+height: auto;
+  }
+  #eleven {
+    font-size: 26px;
+    padding: 0 10px;
+  }
+
+  #ten {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 10px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sixteen {
+    width: 80%;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .carousel-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-btn {
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+  }
+
+  .testimonials-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .client-testimonial {
+    max-width: 100%;
+  }
+
+  #twenty {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  #twentytwo {
+    font-size: 28px;
+  }
+
+  #twentythree {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+#twentyfour {
+    font-size: 20px;
+  }
+  #twentyfive {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  #footer-container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .footer-line {
+    width: 100%;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .overlay-content a {
+    font-size: 24px;
+  }
+
+  #thirteen {
+    padding: 20px 10px;
+  }
+ #fourteen {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  #fifteen {
+    font-size: 14px;
+    padding: 15px 10px;
+    margin: 0 10px;
+  }
+
+  #nineteen {
+    font-size: 30px;
+  }
+
+  #twentyone {
+    padding: 0 10px;
+  }
+
+}
