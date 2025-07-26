@@ -1,5 +1,5 @@
 #one{
-    background:linear-gradient(#00000033,#00000033), url(/project1/images1/hero_4.jpg.webp);
+    background:linear-gradient(#00000033,#00000033), url(hero_4.jpg.webp);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
