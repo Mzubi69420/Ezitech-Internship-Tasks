@@ -581,9 +581,7 @@ height: auto;
   }
 
   .carousel-btn {
-    font-size: 2rem;
-    height: 50px;
-    width: 50px;
+  display: none;
   }
 
   .testimonials-wrapper {

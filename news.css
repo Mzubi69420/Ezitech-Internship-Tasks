@@ -1,12 +1,12 @@
-#one{
-  background:linear-gradient(#00000033,#00000033), url(hero_3.jpg.webp);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-   
+#one {
+  background: linear-gradient(#00000033, #00000033), url("hero_3.jpg.webp");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 #four{
     padding-top: 50px;
 }
@@ -431,7 +431,7 @@ color: #65c0ba;
 /* [All your existing CSS remains here as-is — unchanged] */
 
 #one {
-  background: linear-gradient(#00000033, #00000033), url(/project1/images1/hero_3.jpg.webp);
+  background: linear-gradient(#00000033, #00000033), url(hero_3.jpg.webp);
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
