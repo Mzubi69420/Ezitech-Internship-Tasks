@@ -821,3 +821,60 @@
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  #two {
+    font-size: 26px;
+  }
+
+  #six {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+
+  #eleven, #fourteen {
+    font-size: 20px;
+  }
+}
