@@ -768,13 +768,21 @@
     padding: 0 15px;
   }
 #twentyfour {
-    font-size: 20px;
-  }
-  #twentyfive {
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: left;
-  }
+  font-size: 24px;
+  margin: 0 0 16px;
+  color: #212529;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#twentyfive {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.8;
+  margin: 0 0 16px;
+  margin-top: 20%;
+  text-align:center;
+}
   #footer-container {
     flex-direction: column;
     padding: 30px 20px;
@@ -878,6 +886,22 @@
   .card {
     max-width: 300px;
   }
+  #twentyfour {
+  font-size: 24px;
+  margin: 0 0 16px;
+  color: #212529;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#twentyfive {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.8;
+  margin: 0 0 16px;
+  margin-top: 20%;
+  text-align:center;
+}
 
   #eleven, #fourteen {
     font-size: 20px;
