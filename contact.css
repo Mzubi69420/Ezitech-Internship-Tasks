@@ -509,6 +509,7 @@
     margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
+      align-items:left ;
   }
 
   /* Hero Section */
@@ -620,7 +621,7 @@
 
   .twentythree {
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
 }
 body {
