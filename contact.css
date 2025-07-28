@@ -508,6 +508,7 @@
     width: 90%;
     margin: 20px auto;
     padding: 20px;
+    box-sizing: border-box;
   }
 
   /* Hero Section */
@@ -515,16 +516,19 @@
     height: auto;
     padding: 60px 20px;
     background-position: center;
+    box-sizing: border-box;
   }
 
   #two {
     font-size: 48px;
     text-align: center;
+    padding: 0 15px;
   }
 
   #seven, #five {
     font-size: 20px;
     text-align: center;
+    padding: 0 15px;
   }
 
   /* Form fields */
@@ -533,20 +537,27 @@
   #writemessageinput {
     width: 100%;
     box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
   }
 
   #btn {
     display: block;
     margin: 20px auto;
     width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
   }
 
   /* Footer responsiveness */
   #footer-container {
+    display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 40px 20px;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .footer-column {
@@ -567,6 +578,7 @@
   }
 
   .social-icons {
+    display: flex;
     justify-content: center;
     gap: 15px;
   }
@@ -583,12 +595,18 @@
   #twentyone {
     font-size: 40px;
     text-align: center;
+    padding: 0 15px;
   }
 
   .CustomerText {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 36px;
     text-align: center;
+    padding: 0 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   /* Spacing and padding */
@@ -604,4 +622,7 @@
     padding-left: 0;
     text-align: center;
   }
+}
+body {
+  overflow-x: hidden;
 }
